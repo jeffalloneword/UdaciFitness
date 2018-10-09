@@ -1,3 +1,8 @@
+import React from 'react'
+import { View } from 'react-native'
+import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
+import { white } from './colors'
+
 export function isBetween (num, x, y) {
   if (num >= x && num <= y) {
     return true
@@ -42,7 +47,18 @@ export function timeToString (time = Date.now()) {
 
 export function getMetricMetaInfo () {
   const info = {
-    run: {},
+    run: {
+      displayName: 'Run',
+      max: 50,
+      unit: 'miles',
+      step: 1,
+      type: 'steppers',
+      getIcon() {
+        return (
+
+        )
+      }
+    },
     bike: {},
     swim: {},
     sleep: {},
