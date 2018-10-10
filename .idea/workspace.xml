@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b9c0342-48b4-4dc8-ab3c-7dc42efbd3c2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/AddEntry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AddEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AddEntry.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/helpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
+            <state relative-caret-position="1574">
               <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -34,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="630">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -67,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/components/AddEntry.js" />
         <option value="$PROJECT_DIR$/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/components/AddEntry.js" />
       </list>
     </option>
   </component>
@@ -89,8 +86,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="41" />
+    <option name="x" value="190" />
+    <option name="y" value="39" />
     <option name="width" value="1639" />
     <option name="height" value="983" />
   </component>
@@ -154,15 +151,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539103963927</updated>
-      <workItem from="1539103965788" duration="5808000" />
+      <workItem from="1539103965788" duration="7170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5808000" />
+    <option name="totallyTimeSpent" value="7170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="41" width="1639" height="983" extended-state="0" />
+    <frame x="190" y="39" width="1639" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21964613" />
@@ -207,22 +204,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="1574">
+          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
