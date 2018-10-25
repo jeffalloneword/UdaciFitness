@@ -12,24 +12,24 @@ export default function  UdaciSteppers ({ max, unit, step, value, onIncrement, o
             <TouchableOpacity
               style={[styles.iosBtn, {borderTopRightRadius: 0, borderBottomRightRadius: 0}]}
               onPress={onDecrement}>
-              <Entypo name={'minus'} size={30} color={'purple'} />
+              <Entypo name='minus' size={30} color={purple} />
             </TouchableOpacity>
             <TouchableOpacity
               style={[styles.iosBtn, {borderTopLeftRadius: 0, borderBottomLeftRadius: 0}]}
               onPress={onIncrement}>
-              <Entypo name={'plus'} size={30} color={'purple'} />
+              <Entypo name='plus' size={30} color={purple} />
             </TouchableOpacity>
           </View>
         : <View style={{flexDirection: 'row'}}>
           <TouchableOpacity
-            style={[styles.androidBtn, {borderTopRightRadius: 0, borderBottomRightRadius: 0}]}
+            style={styles.androidBtn}
             onPress={onDecrement}>
-            <FontAwesome name={'minus'} size={30} color={'white'} />
+            <FontAwesome name='minus' size={30} color={white} />
           </TouchableOpacity>
           <TouchableOpacity
-            style={[styles.androidBtn, {borderTopLeftRadius: 0, borderBottomLeftRadius: 0}]}
+            style={styles.androidBtn}
             onPress={onIncrement}>
-            <FontAwesome name={'plus'} size={30} color={'white'} />
+            <FontAwesome name='plus' size={30} color={white} />
           </TouchableOpacity>
         </View> }
       <View style={styles.metricCounter}>

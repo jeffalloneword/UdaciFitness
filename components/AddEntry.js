@@ -191,8 +191,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: '30',
-    marginRight: '30',
+    marginLeft: 30,
+    marginRight: 30,
   }
 })
 
