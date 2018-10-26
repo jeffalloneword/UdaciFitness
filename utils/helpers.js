@@ -71,7 +71,7 @@ export function getMetricMetaInfo (metric) {
       unit: 'miles',
       step: 1,
       type: 'steppers',
-      getIcon () {
+      getIcon() {
         return (
           <View style={[styles.iconContainer, {backgroundColor: red}]}>
             <MaterialIcons
@@ -89,13 +89,13 @@ export function getMetricMetaInfo (metric) {
       unit: 'miles',
       step: 1,
       type: 'steppers',
-      getIcon () {
+      getIcon() {
         return (
           <View style={[styles.iconContainer, {backgroundColor: orange}]}>
             <MaterialCommunityIcons
               name='bike'
               color={white}
-              size={35}
+              size={32}
             />
           </View>
         )
@@ -107,7 +107,7 @@ export function getMetricMetaInfo (metric) {
       unit: 'meters',
       step: 100,
       type: 'steppers',
-      getIcon () {
+      getIcon() {
         return (
           <View style={[styles.iconContainer, {backgroundColor: blue}]}>
             <MaterialCommunityIcons
@@ -125,13 +125,13 @@ export function getMetricMetaInfo (metric) {
       unit: 'hours',
       step: 1,
       type: 'slider',
-      getIcon () {
+      getIcon() {
         return (
           <View style={[styles.iconContainer, {backgroundColor: lightPurp}]}>
             <FontAwesome
               name='bed'
               color={white}
-              size={35}
+              size={30}
             />
           </View>
         )
@@ -143,7 +143,7 @@ export function getMetricMetaInfo (metric) {
       unit: 'rating',
       step: 1,
       type: 'slider',
-      getIcon () {
+      getIcon() {
         return (
           <View style={[styles.iconContainer, {backgroundColor: pink}]}>
             <MaterialCommunityIcons
@@ -157,8 +157,7 @@ export function getMetricMetaInfo (metric) {
     },
   }
 
-  return typeof
-    metric === 'undefined'
+  return typeof metric === 'undefined'
     ? info
-    : info[ metric ]
+    : info[metric]
 }
