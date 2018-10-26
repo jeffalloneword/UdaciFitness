@@ -13,7 +13,6 @@ export default class App extends React.Component {
     return (
       <Provider store={this.store}>
         <View style={{flex: 1}}>
-          <AddEntry />
           <History />
         </View>
       </Provider>
