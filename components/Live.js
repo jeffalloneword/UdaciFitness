@@ -9,7 +9,7 @@ export default class Live extends Component {
   }
 
   render() {
-    const { coords, status, direction } from this.state
+    const { coords, status, direction } = this.state
 
     if (status === null) {
       return <ActivityIndicator style={{marginTop: 30}} />
