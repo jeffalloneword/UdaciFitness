@@ -14,11 +14,11 @@ export default class Live extends Component {
 
   }
 
-  render() {
+  render () {
     const { coords, status, direction } = this.state
 
     if (status === null) {
-      return <ActivityIndicator style={{marginTop: 30}} />
+      return <ActivityIndicator style={{ marginTop: 30 }}/>
     }
 
     if (status === 'denied') {
@@ -32,7 +32,7 @@ export default class Live extends Component {
     if (status === 'undetermined') {
       return (
         <View style={styles.center}>
-          <Foundation name='alert' size={50} />
+          <Foundation name='alert' size={50}/>
           <Text>You need to enable location services for this app.</Text>
           <TouchableOpacity style={styles.button} onPress={this.askPermission}>
             <Text style={styles.buttonText}>Enable</Text>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     margin: 20,
   },
-  buttonText :{
+  buttonText: {
     color: white,
     fontSize: 20,
   }
