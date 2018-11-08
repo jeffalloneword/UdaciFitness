@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "UdaciFitness",
-    "description": "This project is really great.",
+    "description": "A nice triathalon tracking app.",
     "slug": "UdaciFitness",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -9,6 +9,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.udacifitness.exp"
+    },
+    "android": {
+      "package": "org.udacifitness.exp"
     }
   }
 }
